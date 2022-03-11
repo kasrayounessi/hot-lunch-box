@@ -1,0 +1,18 @@
+.custom-navbar{
+    font-size: 2em;
+    
+    font-family: 'Rancho', serif;
+}
+
+.custom-org-name{
+    font-size:1.7em;
+    background: -webkit-linear-gradient(#FFFF00, #FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+/* form input{
+    width:200px
+} */
