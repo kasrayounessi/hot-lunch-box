@@ -26,13 +26,13 @@ const Navbar = () => {
             </a>
           </li> */}
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#menu">
-              Menu
+            <a class="nav-link js-scroll-trigger" href="#aboutUs">
+              About Us
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#aboutUs">
-              About Us
+            <a class="nav-link js-scroll-trigger" href="#menu">
+              Menu
             </a>
           </li>
           <li class="nav-item">
