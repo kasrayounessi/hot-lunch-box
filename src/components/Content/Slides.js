@@ -8,15 +8,15 @@ const Slides = () => {
       data-ride="carousel"
     >
       <div className="carousel-inner">
+        <div className="carousel-item">
+          <img src="https://hot-lunch.s3.us-west-1.amazonaws.com/pasta-group.png" alt="pastas" width="400"/>
+        </div>
         <div className="carousel-item active">
-          <img src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg" className="d-block w-100 img-fluid" alt="..." />
+          <img src="https://hot-lunch.s3.us-west-1.amazonaws.com/nuggets-group.png" alt="nuggets" width="400"/>
         </div>
-        <div className="carousel-item">
-          <img src="https://thumbs.dreamstime.com/b/random-multicolored-spheres-computer-generated-abstract-form-large-small-balls-d-rendering-background-glossy-206845465.jpg" className="d-block w-100 img-fluid" alt="..." />
-        </div>
-        <div className="carousel-item">
+        {/* <div className="carousel-item">
           <img src="https://ae01.alicdn.com/kf/HTB1Rok1JVXXXXcTXXXXq6xXFXXXh/13x18mm-Random-Mixed-Colorful-Oval-Glass-Cabochon-Flatback-Photo-Base-Tray-Blank-DIY-Making-Accessories-By.jpg_Q90.jpg_.webp" className="d-block w-100 img-fluid" alt="..." />
-        </div>
+        </div> */}
       </div>
       <button
         className="carousel-control-prev"

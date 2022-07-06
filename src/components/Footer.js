@@ -1,4 +1,5 @@
 import React from "react";
+import './Footer.css'
 
 const Footer = () => {
   return (
@@ -12,8 +13,10 @@ const Footer = () => {
         <p>
           Email: xxxxxxxx@gmail.com
         </p>
-        <p>
-          Phone number: (xxx) xxx-xxxx
+        <p>Phone number:&nbsp;
+        <a href="tel:818-220-4200" className="custom-text-color">
+          (818) 220-4200
+        </a>
         </p>
         {/* <a class="btn btn-primary btn-lg" href="#" role="button">
           Learn more

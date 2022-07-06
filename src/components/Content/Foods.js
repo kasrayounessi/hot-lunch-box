@@ -25,9 +25,8 @@ const Foods = () => {
           //   </div>
           // </div>
           <div className="menu-item">
-            <img src={item.img} width="200px"/>
-            <div>{item.food}</div>
-            <p>calories: {item.calories}</p>
+            <img src={item.img} width="200px" height="200px" alt={item.food}/>
+            <div style={{textAlign:"center"}}>{item.food}</div>
           </div>
         )}
       </Carousel>

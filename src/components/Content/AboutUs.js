@@ -1,18 +1,18 @@
 import React from 'react';
-import { SocialIcon } from 'react-social-icons';
+// import { SocialIcon } from 'react-social-icons';
 import './AboutUs.css';
 const AboutUs = () => {
   return (
     <div class="jumbotron" id="aboutUs">
       <h1 class="display-4">About Us</h1>
       <p class="lead">
-        This is a simple hero unit, a simple jumbotron-style component for
-        calling extra attention to featured content or information.
+        Our team consists of indiviuals with many years of experience in food-prep,
+        and we strive to restore children's trust in school cafeterias by providing 
+        fresh and delicious meals.
       </p>
-      <hr class="my-4" />
+      {/* <hr class="my-4" />
       <p>
-        It uses utility classes for typography and spacing to space content out
-        within the larger container.
+        Follow us on our social media.
       </p>
       <div className="row">
         <div className="col-sm-4">
@@ -30,7 +30,7 @@ const AboutUs = () => {
             <span><SocialIcon network="twitter" /></span>
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
