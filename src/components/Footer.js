@@ -11,7 +11,10 @@ const Footer = () => {
         </p>
         <hr class="my-4" />
         <p>
-          Email: xxxxxxxx@gmail.com
+          Email:&nbsp;
+          <a href="mailto:sherybanoo21@gmail.com" className="custom-text-color">
+            sherybanoo21@gmail.com
+          </a>
         </p>
         <p>Phone number:&nbsp;
         <a href="tel:818-220-4200" className="custom-text-color">

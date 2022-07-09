@@ -14,9 +14,12 @@ const Slides = () => {
         <div className="carousel-item active">
           <img src="https://hot-lunch.s3.us-west-1.amazonaws.com/nuggets-group.png" alt="nuggets" width="400"/>
         </div>
-        {/* <div className="carousel-item">
-          <img src="https://ae01.alicdn.com/kf/HTB1Rok1JVXXXXcTXXXXq6xXFXXXh/13x18mm-Random-Mixed-Colorful-Oval-Glass-Cabochon-Flatback-Photo-Base-Tray-Blank-DIY-Making-Accessories-By.jpg_Q90.jpg_.webp" className="d-block w-100 img-fluid" alt="..." />
-        </div> */}
+        <div className="carousel-item">
+          <img src="https://hot-lunch.s3.us-west-1.amazonaws.com/tenders-with-fries.png" alt="tenders" width="400" />
+        </div>
+        <div className="carousel-item">
+          <img src="https://hot-lunch.s3.us-west-1.amazonaws.com/tenders-with-potatos.png" alt="tenders and potatos" width="400" />
+        </div>
       </div>
       <button
         className="carousel-control-prev"
