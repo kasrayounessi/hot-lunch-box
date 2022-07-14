@@ -1,11 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 
 #contactUs{
+    font-size:20px;
     font-family: 'Lato', sans-serif;
+}
+
+.contact-us-title{
+    font-size: 3em;
 }
 
 .custom-text-color{
     background: -webkit-linear-gradient(#FFFF00, #FF0000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 485px) {
+    #contactUs{
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (max-width: 360px){
+    #contactUs{
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 280px){
+    #contactUs{
+        font-size: 0.6em;
+    }
 }

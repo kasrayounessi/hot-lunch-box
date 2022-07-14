@@ -17,9 +17,9 @@ const Slides = () => {
         <div className="carousel-item">
           <img src="https://hot-lunch.s3.us-west-1.amazonaws.com/tenders-with-fries.png" alt="tenders" width="400" />
         </div>
-        <div className="carousel-item">
+        {/* <div className="carousel-item">
           <img src="https://hot-lunch.s3.us-west-1.amazonaws.com/tenders-with-potatos.png" alt="tenders and potatos" width="400" />
-        </div>
+        </div> */}
       </div>
       <button
         className="carousel-control-prev"

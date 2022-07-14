@@ -4,7 +4,7 @@ const items = require("./SampleData");
 
 const Foods = () => {
   const breakPoints = [
-    { width: 550, itemsToShow: 1 },
+    { width: 400, itemsToShow: 1 },
     { width: 750, itemsToShow: 2 },
     { width: 1150, itemsToShow: 3 },
     { width: 1450, itemsToShow: 4 },
@@ -25,7 +25,9 @@ const Foods = () => {
           //   </div>
           // </div>
           <div className="menu-item">
-            <img src={item.img} width="200px" height="200px" alt={item.food}/>
+            <div className="img-container">
+            <img src={item.img} className="img-fluid" alt={item.food}/>
+            </div>
             <div style={{textAlign:"center"}}>{item.food}</div>
           </div>
         )}
