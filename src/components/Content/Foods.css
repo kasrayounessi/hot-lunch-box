@@ -69,7 +69,7 @@
     }
 }
 
-@media screen and (max-width: 310px) {
+@media screen and (max-width: 325px) {
     .img-container{
         width: 150px;
         height: 150px;
