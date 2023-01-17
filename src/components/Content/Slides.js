@@ -1,4 +1,4 @@
-import './Slides.css';
+import "./Slides.css";
 
 const Slides = () => {
   return (
@@ -8,14 +8,26 @@ const Slides = () => {
       data-ride="carousel"
     >
       <div className="carousel-inner">
-        <div className="carousel-item">
-          <img src="https://hot-lunch.s3.us-west-1.amazonaws.com/pasta-group.png" alt="pastas" width="400"/>
-        </div>
         <div className="carousel-item active">
-          <img src="https://hot-lunch.s3.us-west-1.amazonaws.com/nuggets-group.png" alt="nuggets" width="400"/>
+          <img
+            src="https://hot-lunch.s3.us-west-1.amazonaws.com/tenders-with-fries.png"
+            alt="tenders"
+            width="400"
+          />
         </div>
         <div className="carousel-item">
-          <img src="https://hot-lunch.s3.us-west-1.amazonaws.com/tenders-with-fries.png" alt="tenders" width="400" />
+          <img
+            src="https://hot-lunch.s3.us-west-1.amazonaws.com/burger-slides.JPG"
+            alt="nuggets"
+            width="400"
+          />
+        </div>
+        <div className="carousel-item">
+          <img
+            src="https://hot-lunch.s3.us-west-1.amazonaws.com/grilledCheese-slides.JPG"
+            alt="tenders"
+            width="400"
+          />
         </div>
         {/* <div className="carousel-item">
           <img src="https://hot-lunch.s3.us-west-1.amazonaws.com/tenders-with-potatos.png" alt="tenders and potatos" width="400" />
